@@ -1,0 +1,12 @@
+.contactList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+  gap: 16px;
+}
+
+.contactItem {
+  padding: 32px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+}
